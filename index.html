@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jordan Smith · Creative Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <canvas id="orb-canvas" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <div class="container">
+        <div class="brand">
+          <span class="logo">JS</span>
+          <span class="name">Jordan Smith</span>
+        </div>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact" class="btn btn-outline">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="hero-content">
+            <p class="eyebrow">Creative Developer &amp; Experience Designer</p>
+            <h1>
+              Building digital worlds that feel <span class="highlight">alive</span>
+            </h1>
+            <p class="description">
+              I'm Jordan, a multidisciplinary developer crafting immersive, performant web experiences for modern brands. I blend code, motion, and storytelling to build interfaces that connect.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-ghost" href="#contact">Book a discovery call</a>
+            </div>
+            <div class="meta">
+              <div>
+                <span class="meta-title">Based in</span>
+                <span class="meta-value">Brooklyn, NY</span>
+              </div>
+              <div>
+                <span class="meta-title">Years of Experience</span>
+                <span class="meta-value">7+</span>
+              </div>
+              <div>
+                <span class="meta-title">Clients</span>
+                <span class="meta-value">Nike, Vimeo, MetaLab</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="profile-card">
+              <div class="profile-frame">
+                <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=400&q=80" alt="Portrait of Jordan Smith" />
+              </div>
+              <div class="profile-info">
+                <p>Currently exploring volumetric web experiences.</p>
+                <div class="availability">
+                  <span class="status-dot"></span>
+                  <span>Open for select collaborations</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container split">
+          <div class="section-header">
+            <p class="eyebrow">About</p>
+            <h2>Designing with empathy, building with precision</h2>
+          </div>
+          <div class="section-body">
+            <p>
+              I'm a developer and designer with a passion for merging aesthetics and engineering. Over the last seven years, I've partnered with agencies, product teams, and startups to build experiences that are visually stunning, performant, and accessible.
+            </p>
+            <p>
+              I thrive in collaborative environments where I can translate human insight into meaningful interfaces. My toolkit spans creative coding, front-end architecture, and product strategy—all focused on delivering pixel-perfect craftsmanship.
+            </p>
+            <div class="stats">
+              <div class="stat">
+                <span class="number">120+</span>
+                <span class="label">Projects shipped</span>
+              </div>
+              <div class="stat">
+                <span class="number">30%</span>
+                <span class="label">Avg. conversion uplift</span>
+              </div>
+              <div class="stat">
+                <span class="number">12</span>
+                <span class="label">Awards &amp; features</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="container">
+          <div class="section-header centered">
+            <p class="eyebrow">Skills</p>
+            <h2>Specialties &amp; toolbox</h2>
+            <p class="description">From concept to production-ready builds, I guide ideas into immersive realities.</p>
+          </div>
+          <div class="skill-grid">
+            <article class="skill-card">
+              <h3>Creative Engineering</h3>
+              <p>Three.js, WebGL, GLSL shaders, cinematic motion, interactive storytelling.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Experience Design</h3>
+              <p>Design systems, rapid prototyping, user research synthesis, design sprints.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Front-end Architecture</h3>
+              <p>React, Next.js, TypeScript, performance optimization, progressive enhancement.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Product Strategy</h3>
+              <p>Product discovery, experimentation frameworks, cross-functional facilitation.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow">Featured Work</p>
+            <h2>Selected projects</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card" data-tilt>
+              <div class="project-meta">
+                <span>2024 · Immersive Campaign</span>
+              </div>
+              <h3>Lunar Archive</h3>
+              <p>A galactic storytelling platform using volumetric video and real-time shaders to celebrate NASA's Apollo missions.</p>
+              <a href="#" class="project-link">Explore case study</a>
+            </article>
+            <article class="project-card" data-tilt>
+              <div class="project-meta">
+                <span>2023 · Product Design</span>
+              </div>
+              <h3>PulseOS</h3>
+              <p>An AI-assisted dashboard for leading health tech teams, enabling clinicians to monitor critical metrics in real time.</p>
+              <a href="#" class="project-link">Explore case study</a>
+            </article>
+            <article class="project-card" data-tilt>
+              <div class="project-meta">
+                <span>2023 · Interactive Installation</span>
+              </div>
+              <h3>Chroma Drift</h3>
+              <p>A traveling art experience blending motion sensors with generative visuals to translate movement into vivid light.</p>
+              <a href="#" class="project-link">Explore case study</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience" id="experience">
+        <div class="container">
+          <div class="section-header centered">
+            <p class="eyebrow">Experience</p>
+            <h2>Career timeline</h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <span class="year">2022 – Present</span>
+              <div>
+                <h3>Lead Creative Developer · MetaLab</h3>
+                <p>Driving innovation across flagship products by prototyping immersive micro-interactions and production-ready systems.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <span class="year">2019 – 2022</span>
+              <div>
+                <h3>Senior Front-end Engineer · Vimeo</h3>
+                <p>Led performance initiatives and design system architecture powering the company's streaming suite.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <span class="year">2016 – 2019</span>
+              <div>
+                <h3>Interactive Developer · Freelance</h3>
+                <p>Partnered with agencies to craft interactive campaigns for Nike, Spotify, and Adidas.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow">Testimonials</p>
+            <h2>What partners say</h2>
+          </div>
+          <div class="testimonial-grid">
+            <figure class="testimonial-card" data-tilt>
+              <blockquote>
+                "Jordan makes technology feel cinematic. Their craftsmanship elevated our brand launch beyond anything we imagined."
+              </blockquote>
+              <figcaption>
+                <span class="name">Amelia Chen</span>
+                <span class="role">Head of Brand, NightShift</span>
+              </figcaption>
+            </figure>
+            <figure class="testimonial-card" data-tilt>
+              <blockquote>
+                "They combine empathy and precision to deliver products people love using. A rare hybrid of strategist and maker."
+              </blockquote>
+              <figcaption>
+                <span class="name">David Ortiz</span>
+                <span class="role">Director of Product, PulseOS</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container split">
+          <div class="section-header">
+            <p class="eyebrow">Let's collaborate</p>
+            <h2>Tell me about your next experience</h2>
+            <p class="description">
+              Share a few details about your project, timeline, and goals. I'll follow up within two business days to set up a discovery session.
+            </p>
+            <div class="contact-meta">
+              <a href="mailto:hello@jordansmith.design">hello@jordansmith.design</a>
+              <div class="socials">
+                <a href="https://dribbble.com" aria-label="Dribbble">Dribbble</a>
+                <a href="https://github.com" aria-label="GitHub">GitHub</a>
+                <a href="https://www.linkedin.com" aria-label="LinkedIn">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@email.com" required />
+            </label>
+            <label>
+              Project type
+              <select name="project" required>
+                <option value="">Select an option</option>
+                <option>Immersive campaign</option>
+                <option>Product design</option>
+                <option>Web experience</option>
+                <option>Consulting</option>
+              </select>
+            </label>
+            <label>
+              Budget range
+              <input type="text" name="budget" placeholder="$15k – $50k" />
+            </label>
+            <label>
+              Tell me more
+              <textarea name="message" rows="4" placeholder="Share project goals, timeline, or inspiration."></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Jordan Smith. Crafted with intention in Brooklyn.</p>
+        <a href="#hero" class="back-to-top" aria-label="Back to top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
